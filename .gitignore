@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+/build
+/bin
+
+# Vendor directory (if you're not using vendoring)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency management
+go.sum
+
+# Test coverage files
+*.coverprofile
+coverage.out
+
+# Environment or secrets
+.env
+.env.*
